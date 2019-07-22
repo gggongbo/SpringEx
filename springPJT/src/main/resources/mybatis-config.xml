@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!-- mapper의 타입 지정 클래시 지정 시 빠르게 해줄 수 있게 함 -->
+	<typeAliases>
+		<typeAlias type="com.sinc.project.test.model.vo.TestVO" alias="test"/>
+		<typeAlias type="com.sinc.project.user.model.vo.UserVO" alias="user"/>
+		<typeAlias type="com.sinc.project.board.model.vo.BoardVO" alias="board"/>
+		<typeAlias type="com.sinc.project.board.model.vo.ReplyVO" alias="reply"/>
+	</typeAliases>
+	
+</configuration>
+
